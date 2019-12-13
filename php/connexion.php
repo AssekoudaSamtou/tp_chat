@@ -1,5 +1,5 @@
 <?php
-    $mysqli = new mysqli('localhost', 'root', '', 'chat');
+    $mysqli = new mysqli('localhost', 'root', 'admin', 'chat');
 
     /*
      * Ceci est le style POO "officiel"

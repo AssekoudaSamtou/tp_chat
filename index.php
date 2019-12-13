@@ -13,7 +13,7 @@
         <div class="card shadow-lg o-hidden border-0 my-5">
             <div class="card-body p-0">
                 <div class="row">
-                    <div style="" class="col-lg-5">
+                    <div style="" class="col-lg-5 offset-3">
                         <div class="p-5">
                             <div class="text-center">
                                 <h4 class="text-dark mb-4">Login</h4>

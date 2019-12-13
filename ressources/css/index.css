@@ -1,0 +1,14 @@
+#no-discussion {
+	box-shadow: 10px 10px 10px;
+	border-radius: 10px;
+	height: 50%;
+	width: 80%;
+	margin: auto;
+	margin-top: 25%;
+}
+
+#no-discussion p {
+	/*height: 100%;*/
+	margin-top: 13%;
+	color: white;
+}
