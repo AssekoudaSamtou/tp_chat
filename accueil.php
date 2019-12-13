@@ -69,7 +69,7 @@
 							</div>
 						</div>
 						<form action="javascript:void(0);" class="bg-light" id="message_form">
-							<input type="hidden" name="expediteur" value="<?php echo $_SESSION['user_id'] ?>">
+							<input id="expediteur_id"> type="hidden" name="expediteur" value="<?php echo $_SESSION['user_id'] ?>">
 							<input type="hidden" name="recepteur" value="">
 							<div class="input-group">
 								<input id="message_area" type="text" name="message" placeholder="Type a message" class="form-control rounded-0 border-0 py-4 bg-light" />

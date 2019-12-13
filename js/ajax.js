@@ -1,5 +1,5 @@
 function loadMessages(with_) {
-	$.get("./php/scripts/messages_loader.php", {expediteur : '1', recepteur : with_}, function(data) {
+	$.get("./php/scripts/messages_loader.php", {expediteur : $("#expediteur_id").val(), recepteur : with_}, function(data) {
 		
 		$("#chat-box").html(data);
 		
