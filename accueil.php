@@ -36,41 +36,18 @@
 									<?php 
 										include 'php/scripts/liste_discussions.php';
 									?>
-									<!-- <a class="discussion-item list-group-item list-group-item-action active text-white rounded-0">
-										<div class="media"><img src="ressources/img/avatar_user.svg" alt="user" width="50" class="rounded-circle" />
-											<div class="media-body ml-4">
-												<div class="d-flex align-items-center justify-content-between mb-1">
-													<h6 class="mb-0">Jason Doe</h6><small class="small font-weight-bold">25 Dec</small></div>
-												<p class="font-italic mb-0 text-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-											</div>
-										</div>
-									</a> -->
 								</div>
 							</div>
 						</div>
 					</div>
 					<div id="chat-body" class="col-7 px-0 d-none">
-						<div id="chat-box" class="px-4 py-5 chat-box bg-white">
-							<div class="media w-50 mb-3"><img src="ressources/img/avatar_user.svg" alt="user" width="50" class="rounded-circle" />
-								<div class="media-body ml-3">
-									<div class="bg-light rounded py-2 px-3 mb-2">
-										<p class="text-small mb-0 text-muted">Test which is a new approach all solutions</p>
-									</div>
-									<p class="small text-muted">12:00 PM | Aug 13</p>
-								</div>
-							</div>
-							<div class="media w-50 ml-auto mb-3">
-								<div class="media-body">
-									<div class="bg-primary rounded py-2 px-3 mb-2">
-										<p class="text-small mb-0 text-white">Test which is a new approach to have all solutions</p>
-									</div>
-									<p class="small text-muted">12:00 PM | Aug 13</p>
-								</div>
-							</div>
-						</div>
+						<?php 
+							include 'php/scripts/liste_chatbox.php';
+						?>
+						
 						<form action="javascript:void(0);" class="bg-light" id="message_form">
-							<input id="expediteur_id"> type="hidden" name="expediteur" value="<?php echo $_SESSION['user_id'] ?>">
-							<input type="hidden" name="recepteur" value="">
+							<input id="expediteur_id" type="hidden" name="expediteur" value="<?php echo $_SESSION['user_id'] ?>">
+							<input id="recepteur_id" type="hidden" name="recepteur" value="">
 							<div class="input-group">
 								<input id="message_area" type="text" name="message" placeholder="Type a message" class="form-control rounded-0 border-0 py-4 bg-light" />
 								<div class="input-group-append">
@@ -99,4 +76,5 @@
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/ajax.js"></script>
+	<script src="js/js.js"></script>
 </html>

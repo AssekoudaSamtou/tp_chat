@@ -8,6 +8,8 @@
 
 	$result = $mysqli->query("INSERT INTO MESSAGE (message, lu, supprime, date_message, expediteur, recepteur) VALUES ('". $message ."', 0, 'N', '".$date_message."', ".$expediteur_id. ", ".$recepteur_id. ")");
 
+	// echo $result;
+
 	echo "
 		<div class=\"media w-50 ml-auto mb-3\">
 			<div class=\"media-body\">

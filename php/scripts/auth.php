@@ -13,8 +13,6 @@
 		$_SESSION['password'] = $row['password'];
 	}
 	echo $result->num_rows;
-		
-
 
     include '../deconnexion.php';
 ?>

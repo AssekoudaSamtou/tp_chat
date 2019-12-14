@@ -1,6 +1,6 @@
 <?php 
 	include 'php/connexion.php';
-	$result = $mysqli->query("SELECT * FROM USER WHERE login!='samtou'");
+	$result = $mysqli->query("SELECT * FROM USER WHERE login!='".$_SESSION['username']."'");
 	
 	// echo $result->num_rows;
 
