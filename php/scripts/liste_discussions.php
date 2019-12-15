@@ -18,6 +18,7 @@
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
 						</p>
 					</div>
+					<div class=\"rounded-circle px-2 d-none non_lu_tag\" style=\"background: #1230c5; color: white; margin-top: 35px;\">2</div>
 				</div>
 			</a>
 		";

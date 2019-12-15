@@ -4,7 +4,7 @@
 	$expediteur_id = $_GET["expediteur"];
 	$recepteur_id = $_GET["recepteur"];
 
-	$result = $mysqli->query("SELECT * FROM MESSAGE WHERE expediteur in ('" .$expediteur_id. "', '" .$recepteur_id. "') AND recepteur in ('" .$_GET["expediteur"]. "', '" .$_GET["recepteur"]. "')");
+	$result = $mysqli->query("SELECT * FROM MESSAGE WHERE expediteur in ('" .$expediteur_id. "', '" .$recepteur_id. "') AND recepteur in ('" .$expediteur_id. "', '" .$recepteur_id. "')");
 	
 	// $non_lus = $mysqli->query("SELECT * FROM MESSAGE WHERE expediteur in ('" .$expediteur_id. "', '" .$recepteur_id. "') AND recepteur in ('" .$_GET["expediteur"]. "', '" .$_GET["recepteur"]. "')");
 
